@@ -224,7 +224,6 @@ echo -----------------------------------------------
 read -p "请输入相应数字 > " num
 if [ -z $num ];then
 	echo 安装已取消！ && exit 1;
-elif [ "$num" = "2" ];then
 fi
 tarurl=$url_cdn/releases/download/1.8.0-release/ShellClash.tar.gz
 
