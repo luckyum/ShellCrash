@@ -222,9 +222,7 @@ $echo " 1 \033[32mShellclash公测版\033[0m"
 $echo " 2 \033[36mShellclash稳定版\033[0m"
 echo -----------------------------------------------
 read -p "请输入相应数字 > " num
-if [ -z $num ];then
-	echo 安装已取消！ && exit 1;
-fi
+
 tarurl=$url_cdn/releases/download/1.8.0-release/ShellClash.tar.gz
 
 #输出
